@@ -3,9 +3,10 @@ html {
 }
 
 body{
-  margin: 0;
-  padding: 0;
+  padding: 15px 5px 0px 5px;
   font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  position: relative;
 }
 
 h1 {
@@ -15,29 +16,34 @@ h1 {
   font-size: 35px;
 }
 
-
-.menu{
-  width: 100%;
-  overflow: none;
-}
-
-
-.item{
-  float: right;
-  margin: 0px 6px 10px 0px;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  border: 3px solid #2F4F4F;
-  width: 100px;
-  height: 40px;
-}
+.menu {
+  border: 4px solid #2F4F4F;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 3px;
+  background-color: #FFF5EE;
+  position: relative;
+  }
+  
+.item {
+    font-size: 20px;
+    width: 150px;
+    border: 3px solid #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 0;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+  }
 
 .desc{
   padding: 2%;
   padding-top: 55px;
   margin: 2.5%;
-  border: 3px solid #2F4F4F;
   width: 90%;
   height: auto;
   color: #556B2F;
@@ -70,47 +76,21 @@ h1 {
 
 /***** Medium Devices *****/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6,.col-md-12 {
-    float: left;
-  }
   .col-md-6 {
     width: 50%;
+    float: left;
   }
   .col-md-12 {
-    margin-right: 10px;
     width: 100%;
-  }
-   .chicken{
-    margin-right: 10px;
-    width: 100px;
-  }
-    .beef{
-    margin-right: 10px;
-    width: 100px;
-  }
-  .sushi{
-    margin-right: 30px;
-    width: 100px;
+    float: left;
   }
 }
 
 /***** Small Devices *****/
-@media (min-width: 0px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .col-sm-12 {
     float: left;
     width: 100%;
-  }
-   .chicken{
-    margin-right: 20px;
-    width: 100px;
-  }
-    .beef{
-    margin-right: 20px;
-    width: 100px;
-  }
-    .sushi{
-    margin-right: 20px;
-    width: 100px;
   }
 
 }
