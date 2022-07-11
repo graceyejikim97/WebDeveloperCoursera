@@ -1,5 +1,3 @@
-
-
 html {
   box-sizing: border-box;
 }
@@ -25,11 +23,10 @@ h1 {
 
 
 .item{
-  overflow: none;
   float: right;
-  margin-top: 0px;
+  margin: 0px 6px 10px 0px;
   font-weight: bold;
-  position: relative;
+  font-size: 20px;
   text-align: center;
   border: 3px solid #2F4F4F;
   width: 100px;
@@ -80,11 +77,19 @@ h1 {
     width: 50%;
   }
   .col-md-12 {
-    margin-left: -10px;
+    margin-right: 10px;
     width: 100%;
   }
+   .chicken{
+    margin-right: 10px;
+    width: 100px;
+  }
+    .beef{
+    margin-right: 10px;
+    width: 100px;
+  }
   .sushi{
-    margin-right: 65px;
+    margin-right: 30px;
     width: 100px;
   }
 }
@@ -95,8 +100,17 @@ h1 {
     float: left;
     width: 100%;
   }
-  .item{
-    margin-right: 30px;
+   .chicken{
+    margin-right: 20px;
+    width: 100px;
+  }
+    .beef{
+    margin-right: 20px;
+    width: 100px;
+  }
+    .sushi{
+    margin-right: 20px;
+    width: 100px;
   }
 
 }
